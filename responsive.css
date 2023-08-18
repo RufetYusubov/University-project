@@ -1,0 +1,288 @@
+@media screen and (max-width: 1230px){
+    .logo{
+        margin-left: 30px;
+        width: 120px;
+    }
+    .header_icons_container{
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .main_container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .user_icon{
+        margin-right: 15px;
+        margin-left: 30px;
+    }
+    .nav_list{
+        gap: 20px;
+    }
+    
+    .inp_icon{
+        width: 180px;
+        height: 28px;
+
+}
+}
+
+@media screen and (max-width: 885px){
+    .nav_list{
+        flex-direction: column;
+        position: fixed;
+        left: -10000px;
+        top: 10vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 200px;
+        height: 50vh;
+        text-align: center;
+        padding-top: 30px;
+        transition: 1s ease-in-out;
+    }
+    .nav_list li a{
+        color: var(--ag);
+    }
+    #nav_check:checked ~ .nav_list{
+        left: 0;
+    }
+    .footer_end{
+        max-width:  680px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .header_icons_container label i{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .footer_end{
+        max-width:  600px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .header_middle_container h1{
+        margin-left: 30px;
+        font-size: 3.5rem;
+    }
+    .header_middle_container p{
+        margin-left: 30px;
+        font-size: 1.8rem;
+    }
+    .header_middle_container button{
+        margin-left: 30px;
+        font-size: 1.6rem;
+        padding: 8px 35px;
+    }
+    .nav_list_footer ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_end{
+        max-width:  500px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .nav_list_footer ul{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .nav_list_footer ul li a{
+        font-size: 1.7rem;
+    }
+    .middle_footer input{
+        width: 270px;
+        height: 30px;
+        font-size: 1.7rem;
+    }
+    .middle_footer input::placeholder{
+        font-size: 1.5rem;
+        padding-right: 110px;
+    }
+    .middle_footer button{
+        font-size: 1.1rem;
+    }
+    .footer_end{
+        max-width:  450px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .middle_footer{
+        justify-content: center;
+    }
+    .middle_footer input{
+        width: 230px;
+        height: 25px;
+        font-size: 1.4rem;
+    }
+    .footer_end{
+        max-width:  420px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .svg_icons ul{
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .logo{
+        margin-left: 20px;
+        width: 100px;
+    }
+    .user_icon{
+        margin-right: 7px;
+        margin-left: 15px;
+    }
+    .inp_icon{
+        width: 120px;
+        height: 24px;
+    }
+    .inp_icon i{
+        font-size: 1.4rem;
+    }
+    
+    .inp_icon input{
+    font-size: 1.5rem;
+    }
+    .header_icons_container{
+        margin-right: 20px;
+    }
+    .middle_footer input{
+        width: 200px;
+    }
+    .middle_footer input::placeholder{
+        font-size: 1.3rem;
+    }
+    .middle_footer button{
+        font-size: 1rem;
+    }
+    .footer_end{
+        max-width:  350px;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .most_btns{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .most_btns button{
+        font-size: 1.4rem;
+    }
+    
+    .most_btns .recent_btn{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .header_middle_container h1{
+        font-size: 2.3rem;
+    }
+    .header_middle_container p{
+        font-size: 1.4rem;
+    }
+    .header_middle_container button{
+        font-size: 1.4rem;
+        padding: 6px 25px;
+    }
+    .section_header{
+        font-size: 2.8rem;
+    }
+    .section_p{
+        
+        font-size: 1.8rem;
+    }
+    .main_header{
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .nav_list_footer ul li a{
+        font-size: 1.5rem;
+    }
+    .middle_footer input{
+        width: 160px;
+        font-size: 1.2rem;
+    }
+    .middle_footer input::placeholder{
+        font-size: 1.1rem;
+    }
+    .footer_end{
+        width:  300px;
+    }
+    .svg_icons ul{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .middle_footer input{
+        width: 150px;
+    }
+    .middle_footer input::placeholder{
+        font-size: 1.1rem;
+    }
+    .slider_container,
+    .right_container,
+    .left_container{
+        gap: 20px;
+    }
+    
+
+
+
+}
+
+@media screen and (max-width: 380px){
+    .logo{
+        width: 80px;
+    }
+    .user_icon{
+        margin-right: 4px;
+        margin-left: 8px;
+        font-size: 1.4rem;
+    }
+    .header_icons_container label{
+        margin-left: 6px;
+    }
+    .most_btns button{
+        font-size: 1.2rem;
+    }
+    
+    .most_btns .recent_btn{
+        font-size: 1.4rem;
+    }
+   
+}
+@media screen and (max-width: 350px){
+    .nav_list_footer ul li a{
+        font-size: 1.3rem;
+    }
+    .middle_footer input{
+        width: 130px;
+        font-size: 1.2rem;
+    }
+    .middle_footer input::placeholder{
+        font-size: 1rem;
+    }
+    .footer_end{
+        width:  230px;
+    }
+    .svg_icons ul{
+        gap: 10px;
+    }
+}
+

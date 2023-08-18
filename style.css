@@ -1,0 +1,497 @@
+html{
+    font-size: 10px;
+}
+:root{
+    --ag: #fff;
+    --black: #000;
+    --blue: #597C76;
+    --grey: #979797;
+    --red: #641414;
+    --foter_bg : #6C6B76;
+    --footer_middle : #313237;
+    --footer_p : #DDD;
+    --footer_border_top : #FFFFFF;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Mulish', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+ul li{
+list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+select{
+    border: none;
+    outline: none;
+}
+
+header{
+    height: 100vh;
+}
+
+.header_head_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.nav_list{
+    display: flex;
+    gap: 50px;
+}
+
+#nav_check{
+    display: none;
+}
+
+.nav_list li a{
+    color: var(--black);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.header_icons_container{
+    display: flex;
+    align-items: center;
+    margin-right: 135px;
+}
+.header_icons_container label{
+    margin-left: 10px;
+}
+
+.user_icon{
+    margin-right: 29px;
+    margin-left: 61px;
+}
+.logo{
+    margin-left: 74px;
+}
+
+.inp_icon{
+    background-color: rgba(0, 0, 0, 0.36);
+    width: 211px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+.inp_icon i{
+    color: var(--ag);
+}
+
+.inp_icon input{
+background: none;
+border: none;
+outline: none;
+width: 85%;
+font-size: 2rem;
+}
+
+.header_middle_container{
+background: url('./images/Massachusetts-Institute-of-Technology-1200x600\ 1.png');
+height: 90vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.header_middle_container h1{
+    margin-top: 192px;
+    display: inline-block;
+    margin-left: 70px;
+    color: var(--ag);
+    font-size: 4.8rem;
+    font-weight: 700;
+    max-width: 593px;
+}
+.header_middle_container p{
+    margin-left: 72px;
+    margin-top: 17px;
+    color: var(--ag);
+    font-size: 2.4rem;
+    font-weight: 300;
+    max-width: 307px;
+}
+.header_middle_container button{
+    margin-left: 70px;
+    margin-top: 22px;
+    background: none;
+    color: var(--ag);
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 2px solid var(--ag);
+    padding: 10px 42px;
+}
+
+.bg_shadow{
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 100%;
+}
+
+
+/* main header */
+.section_header{
+    text-align: center;
+    margin-top: 47px;
+    color: var(--blue);
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.section_p{
+    text-align: center;
+    color: var(--black);
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 6px;
+    margin-bottom: 29px;
+    line-height: 28px;
+}
+.main_header{
+    color: var(--grey);
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 31px;
+    margin-bottom: 15px;
+}
+
+.main_container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid_card{
+    background-color: var(--ag);
+    border-radius: 6px;
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.23);
+    min-width: 277px;
+    height: 270px;
+}
+
+.grid_container{
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(277px,1fr));
+    gap: 20px;
+}
+
+.grid_card img{
+    border-radius: 6px 6px 0 0;
+    height: 133px;
+    width: 100%;
+}
+
+.grid_card_container h4{
+    margin-top: 18px;
+    margin-bottom: 5px;
+    color: var(--red);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+.grid_card_container p{
+    text-align: center;
+    min-width: 224px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--black);
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.grid_card_container svg{
+ margin-left: auto;
+ display: block;
+ margin-right: 17px;
+ margin-bottom: 25px;
+}
+
+.view_all{
+    color: var(--grey);
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background: none;
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+
+
+
+.grid_card_countries{
+    background-color: var(--ag);
+    border-radius: 6px;
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.23);
+    min-width: 277px;
+    height: 270px;
+    position: relative;
+}
+
+.grid_card_countries img{
+    height: 100%;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.grid_card_countries button{
+    font-size: 1.8rem;
+    font-weight: 600;
+    background: var(--red);
+    color: var(--ag);
+    padding: 4px 17px 5px 18px;
+    position: absolute;
+    bottom: 28px;
+    left: 21px;
+    border: none;
+    border-radius: 6px;
+}
+
+.most_btns{
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.most_btns button{
+    background: none ;
+    border: none;
+    color: var(--grey);
+    font-size: 1.8rem;
+    font-weight: 300
+}
+
+.most_btns .recent_btn{
+    color: var(--black);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.slider_container{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    margin-top: 40px;
+}
+
+.slider_card{
+    min-width: 277px;
+    height: 270px;
+    opacity: 0.63;
+    border-radius: 6px;
+    box-shadow: 0px 0px 9px 0px rgba(69, 69, 69, 0.23);
+    
+}
+.slider_card p{
+    color: #C5C5C5;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 234px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 29px;
+}
+.slider_card img{
+    width: 100%;
+    height: 133px;
+}
+.center_container{
+    max-width: 387px;
+    min-width: 300px;
+    height: 378px;
+    box-shadow:  0px 0px 9px rgba(69, 69, 69, 0.23);
+    border-radius: 6px;
+}
+.center_container img{
+    width: 100%;
+    height: 186px;
+    border-radius: 6px 6px 0 0;
+
+}
+.center_text h5{
+    text-align: center;
+    color: var(--red);
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 305px ;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.center_text p{
+    text-align: center;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 324px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center_text svg{
+    display: block;
+    margin-left: auto;
+    margin-top: 4px;
+    margin-right: 16px;
+}
+
+.left_container{
+    display: flex;
+    gap: 43px;
+    width: 480px;
+    overflow-x: hidden;
+    justify-content: flex-end;
+}
+
+.right_container{
+    display: flex;
+    gap: 43px;
+    width: 480px;
+    overflow-x: hidden;
+}
+
+.grid_container_browse{
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(198px,1fr));
+    row-gap: 36px;
+    column-gap: 45px;
+}
+
+.browse_card{
+    border-radius: 22px;
+    min-width: 198px;
+    box-shadow:  0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 26px;
+}
+
+
+.browse_card p{
+    color: var(--black);
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+.browse_card img{
+    margin-bottom: 19px;
+}
+
+
+/* footer */
+footer{
+    background: var(--foter_bg);
+    padding-top: 36px;
+    margin-top: 94px;
+}
+
+.nav_list_footer ul{
+    display: flex;
+    max-width: 577px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.nav_list_footer ul li a{
+    color: var(--ag);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.middle_footer{
+    max-width: 435px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 47px;
+}
+.middle_footer input{
+    width: 292px;
+    height: 34px;
+    border-radius: 3px;
+    border: 0.5px solid var(--footer_middle);
+    background: none;
+    outline: none;
+    padding-left: 6px;
+    font-size: 2rem;
+   
+
+}
+.middle_footer input::placeholder{
+    color: var(--footer_middle);
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 5px 85px 6px 11px;
+}
+
+.middle_footer button{
+    border-radius: 6px;
+    background: var(--red);
+    color: var(--ag);
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 11px 15px 7px;
+    border: none;
+}
+
+.footer_end{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    max-width:  724px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 23px;
+    border-top: 1px solid var(--ag);
+}
+.footer_end p{
+    color: var(--footer_p);
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-top: 13px;
+}
+.svg_icons{
+    padding-top: 13px;
+}
+
+.svg_icons ul{
+    display: flex;
+    gap: 60px;
+}
+
+.header_icons_container label i{
+    display: none;
+}
