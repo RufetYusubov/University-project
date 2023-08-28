@@ -6,6 +6,7 @@ html{
     --black: #000;
     --blue: #597C76;
     --grey: #979797;
+    --green: #597C76;
     --red: #641414;
     --foter_bg : #6C6B76;
     --footer_middle : #313237;
@@ -108,6 +109,14 @@ background-size: cover;
 background-position: center;
 }
 
+.header_middle_container_country{
+    background: url('./images/image\ 66.png');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .header_middle_container h1{
     margin-top: 192px;
     display: inline-block;
@@ -117,6 +126,17 @@ background-position: center;
     font-weight: 700;
     max-width: 593px;
 }
+
+.header_middle_container_country .country{
+    color: var(--ag);
+    font-size: 7rem;
+    font-weight: 700;
+    max-width: 951px;
+    margin-top: 148px;
+    display: inline-block;
+    margin-left: 74px;
+}
+
 .header_middle_container p{
     margin-left: 72px;
     margin-top: 17px;
@@ -135,6 +155,31 @@ background-position: center;
     border-radius: 6px;
     border: 2px solid var(--ag);
     padding: 10px 42px;
+}
+
+.middle_buttons{
+    margin-left: 77px;
+    display: flex;
+    gap: 30px;
+    margin-top: 56px;
+}
+
+.middle_buttons button{
+    color: var(--ag);
+    font-size: 2rem;
+    font-weight: 600;
+    background: none;
+    border: 2px solid var(--ag);
+    padding: 9px 24px 11px;
+    border-radius: 6px;
+    /* margin-top: 56px; */
+}
+
+.middle_buttons .all{
+    background: var(--red);
+    border: none;
+    box-shadow: 0px 0px 9px 0px rgba(255, 255, 255, 0.25);
+
 }
 
 .bg_shadow{
@@ -171,7 +216,7 @@ background-position: center;
 }
 
 .main_container{
-    max-width: 1170px;
+    max-width: 1171px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -185,7 +230,7 @@ background-position: center;
 }
 
 .grid_container{
-    max-width: 1170px;
+    max-width: 1171px;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(277px,1fr));
     gap: 20px;
@@ -265,6 +310,186 @@ background-position: center;
     border-radius: 6px;
 }
 
+.main_header_all{
+    color: var(--green);
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 48px;
+}
+.grid_container{
+    max-width: 1171px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(277px,1fr));
+    gap: 21px;
+}
+
+.grid_cardbg{
+    margin-top: 34px;
+    min-width: 277px;
+    height: 270px;
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.23);
+    position: relative;
+    border-radius: 6px;
+    
+}
+.grid_card_bg1{
+    background: url('./images/image\ 61.png');
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid_card_bg2{
+    background: url('./images/istanbul-OZAN-KOSE_AFP_1024PX\ 1.png');
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid_card_bg3{
+    background: url('./images/GettyImages-1284581217\ 1.png');
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.grid_card_bg4{
+    background: url('./images/image\ 63.png');
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid_card_bg5{
+    background: url('./images/image\ 62.png');
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.grid_card_bg6{
+    background: url('./images/image\ 64.png');
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.grid_card_bg7{
+    background: url('./images/image\ 65.png');
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid_card_bg8{
+    background: url('./images/study-in-the-netherlands\ 1.png');
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid_bg_shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 6px;
+   
+}
+
+.grid_cardbg button{
+    border: none;
+    border-radius: 6px;
+    background:  var(--red); 
+    color: var(--ag);
+    font-size: 1.8rem;
+    font-weight: 600;  
+    padding: 4px 19px 5px;
+    position: absolute;
+    left: 20px;
+    bottom: 58px;
+}
+
+.grid_cardbg span{
+    color: var(--ag);
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.grid_cardbg .city{
+    position: absolute;
+    left: 19px;
+    bottom: 20px;
+}
+
+.grid_cardbg .university{
+    position: absolute;
+    right: 31px;
+    bottom: 20px;
+}
+
+/* countries education middle */
+
+.main_container_middle{
+    max-width: 1191px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_container_middle .main_p{
+    color: var(--black);
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.header_icons_container label i{
+    display: none;
+}
+.grid_text_container{
+    max-width: 1191px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(376px,1fr));
+    gap: 21px;
+}
+
+.grid_card_text{
+    margin-top: 33px;
+    max-width: 376px;
+    height: 117px;
+    border-radius: 6px;
+    background: var(--ag);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.grid_card_p{
+    color: var(--black);
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: absolute;
+    top: 19px;
+    left: 20px;
+}
+
+.grid_card_text svg{
+    position: absolute;
+    bottom: 13px;
+    left: 180px;
+}
+.text_p{
+    max-width: 322px;
+}
+
+
+/*  */
+
 .most_btns{
     max-width: 470px;
     margin-left: auto;
@@ -288,6 +513,12 @@ background-position: center;
     font-weight: 700;
 }
 
+.most_btns .recent{
+    color: var(--black);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
 .slider_container{
     display: flex;
     align-items: center;
@@ -303,6 +534,7 @@ background-position: center;
     box-shadow: 0px 0px 9px 0px rgba(69, 69, 69, 0.23);
     
 }
+
 .slider_card p{
     color: #C5C5C5;
     font-size: 18px;
