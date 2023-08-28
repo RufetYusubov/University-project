@@ -6,10 +6,22 @@
     .header_icons_container{
         margin-right: 30px;
     }
+    .middle_buttons{
+        gap: 20px;
+    }
+    
+    .middle_buttons button{
+        font-size: 1.8rem;
+        padding: 6px 12px 8px;
+    }
 }
 
 @media screen and (max-width: 1200px){
     .main_container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .main_container_middle{
         margin-left: 20px;
         margin-right: 20px;
     }
