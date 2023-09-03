@@ -41,9 +41,38 @@
         height: 28px;
 
 }
+ 
 }
 
-@media screen and (max-width: 885px){
+
+@media screen and (max-width: 1035px){
+    .header_middle_container_country .country{
+        font-size: 5rem;
+        margin-left: 50px;
+    }
+
+    .middle_buttons{
+        margin-left: 50px;
+    }
+
+    .middle_buttons button{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 930px){
+    .header_middle_container_country .country{
+        font-size: 4rem;
+        margin-left: 30px;
+        max-width: 700px;
+    }
+    .middle_buttons{
+        margin-left: 30px;
+      }
+}
+
+@media screen and (max-width: 890px){
     .nav_list{
         flex-direction: column;
         position: fixed;
@@ -70,12 +99,73 @@
     .header_icons_container label i{
         display: block;
     }
+
+    .header_middle_container h1{
+        font-size: 4rem;
+        margin-left: 30px;
+        max-width: 500px;
+    }
+
+    .header_middle_container p{
+        margin-left: 30px;
+    }
+
+    .header_middle_container button{
+        margin-left: 30px;
+    }
     
 }
-
+@media screen and (max-width: 850px){
+    .section_p{
+        font-size: 2rem;
+    }
+    .section_header{
+        font-size: 3rem;
+    }
+}
 @media screen and (max-width: 800px){
     .footer_end{
         max-width:  600px;
+    }
+    .section_p{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width :760px){
+    .middle_buttons button{
+        font-size: 1.3rem;
+        padding: 6px;
+    }
+    .middle_buttons{
+        gap: 10px;
+    }
+    .footer_end{
+       width: 550px;
+       flex-direction: column-reverse;
+       align-items: center;
+       justify-content: center;
+    }
+    .svg_icons ul{
+        gap: 30px;
+    }
+      
+}
+
+@media screen and (max-width :730px){
+    .header_middle_container_country .country{
+        font-size: 3.3rem;
+        margin-left: 20px;
+        max-width: 600px;
+    }
+    .middle_buttons{
+        margin-left: 20px;
+    }
+    .main_header_all{
+        font-size: 3rem;
+    }
+    .main_container_middle .main_p{
+        font-size: 2rem;
     }
 }
 
@@ -96,13 +186,49 @@
     .nav_list_footer ul{
         flex-direction: column;
         text-align: center;
+        gap: 10px;
     }
     .footer_end{
         max-width:  500px;
     }
+    .svg_icons ul li svg{
+        width: 15px;
+    }
+    .main_header_all{
+        font-size: 2.2rem;
+    }
+    .section_header{
+        font-size: 2.5rem;
+    }
+    .section_p{
+        font-size: 1.5rem;
+    }
+    .main_container_middle .main_p{
+        font-size: 1.7rem;
+    }
+    .most_btns button{
+        font-size: 1.5rem;
+    }
+    .center_text h2{
+        font-size: 1.7rem;
+        max-width: 250px;   
+    }
+    .center_text p{
+        font-size: 1.5rem;
+        max-width: 220px;
+        min-width: 180px;
+    }
 }
 
 @media screen and (max-width: 600px){
+    .header_middle_container_country .country{
+        font-size: 3rem;
+        margin-left: 10px;
+        max-width: 500px;
+    }
+    .middle_buttons{
+        margin-left: 10px;
+    }
     .nav_list_footer ul{
         margin-left: 20px;
         margin-right: 20px;
@@ -125,6 +251,12 @@
     .footer_end{
         max-width:  450px;
     }
+    .svg_icons ul{
+        gap: 20px;
+    }
+    .section_p{
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 550px){
@@ -136,18 +268,15 @@
         height: 25px;
         font-size: 1.4rem;
     }
-    .footer_end{
-        max-width:  420px;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
+    .middle_buttons{
+        flex-wrap: wrap;
     }
-    .svg_icons ul{
-        gap: 30px;
+    .browse_card p{
+        font-size: 1.2rem;
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 510px){
     .logo{
         margin-left: 20px;
         width: 100px;
@@ -173,6 +302,12 @@
     .middle_footer input{
         width: 200px;
     }
+    .section_header{
+        font-size: 2.2rem;
+    }
+    .section_p{
+        font-size: 1rem;
+    }
     .middle_footer input::placeholder{
         font-size: 1.3rem;
     }
@@ -196,6 +331,9 @@
     .most_btns .recent_btn{
         font-size: 1.8rem;
     }
+    .most_btns .recent{
+        font-size: 1.8rem;
+    }
 }
 
 @media screen and (max-width: 475px){
@@ -208,13 +346,6 @@
     .header_middle_container button{
         font-size: 1.4rem;
         padding: 6px 25px;
-    }
-    .section_header{
-        font-size: 2.8rem;
-    }
-    .section_p{
-        
-        font-size: 1.8rem;
     }
     .main_header{
         font-size: 2rem;
@@ -235,12 +366,12 @@
     .footer_end{
         width:  300px;
     }
-    .svg_icons ul{
-        gap: 20px;
-    }
 }
 
 @media screen and (max-width: 400px){
+    .grid_card_text{
+        width: 330px;
+    }
     .middle_footer input{
         width: 150px;
     }
@@ -277,9 +408,21 @@
     .most_btns .recent_btn{
         font-size: 1.4rem;
     }
+    .most_btns .recent{
+        font-size: 1.4rem;
+    }
    
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 360px){
+    .grid_card_text{
+        width: 300px;
+    }
+    .grid_card_p{
+        font-size: 1.4rem;
+    }
+    .grid_card_text svg{
+        left: 140px;
+    }
     .nav_list_footer ul li a{
         font-size: 1.3rem;
     }

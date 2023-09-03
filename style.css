@@ -8,6 +8,7 @@ html{
     --grey: #979797;
     --green: #597C76;
     --red: #641414;
+    --white_grey : #A1A1A1;
     --foter_bg : #6C6B76;
     --footer_middle : #313237;
     --footer_p : #DDD;
@@ -109,6 +110,14 @@ background-size: cover;
 background-position: center;
 }
 
+.header_middle_container_universities{
+    background: url('./images/image\ 28.png');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .header_middle_container_country{
     background: url('./images/image\ 66.png');
     height: 90vh;
@@ -137,6 +146,15 @@ background-position: center;
     margin-left: 74px;
 }
 
+.header_middle_container_universities h1{
+    color: var(--ag);
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-top: 251px;
+    margin-left: 70px;
+    display: inline-block;
+}
+
 .header_middle_container p{
     margin-left: 72px;
     margin-top: 17px;
@@ -144,6 +162,14 @@ background-position: center;
     font-size: 2.4rem;
     font-weight: 300;
     max-width: 307px;
+}
+.header_middle_container_universities p{
+    color: var(--ag);
+    font-size: 2.4rem;
+    font-weight: 300;
+    max-width: 739px;
+    margin-top: 13px;
+    margin-left: 73px; 
 }
 .header_middle_container button{
     margin-left: 70px;
@@ -155,6 +181,18 @@ background-position: center;
     border-radius: 6px;
     border: 2px solid var(--ag);
     padding: 10px 42px;
+}
+
+.header_middle_container_universities button{
+    margin-left: 73px;
+    margin-top: 46px;
+    border-radius: 6px;
+    border: 2px solid var(--ag);
+    color: var(--ag);
+    font-size: 2rem;
+    font-weight: 400;
+    background: none;
+    padding: 10px 20px;
 }
 
 .middle_buttons{
@@ -225,7 +263,7 @@ background-position: center;
     background-color: var(--ag);
     border-radius: 6px;
     box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.23);
-    min-width: 277px;
+    max-width: 277px;
     height: 270px;
 }
 
@@ -250,9 +288,11 @@ background-position: center;
     font-weight: 700;
     text-align: center;
 }
+
+
 .grid_card_container p{
     text-align: center;
-    min-width: 224px;
+    max-width: 224px;
     margin-left: auto;
     margin-right: auto;
     color: var(--black);
@@ -278,9 +318,6 @@ background-position: center;
     margin-left: auto;
     margin-top: 15px;
 }
-
-
-
 
 .grid_card_countries{
     background-color: var(--ag);
@@ -308,6 +345,65 @@ background-position: center;
     left: 21px;
     border: none;
     border-radius: 6px;
+}
+
+
+
+/* countries education middle */
+
+.main_container_middle{
+    max-width: 1191px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_container_middle .main_p{
+    color: var(--black);
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.header_icons_container label i{
+    display: none;
+}
+.grid_text_container{
+    max-width: 1191px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(376px,1fr));
+    gap: 21px;
+}
+
+.grid_card_text{
+    margin-top: 33px;
+    max-width: 376px;
+    height: 117px;
+    border-radius: 6px;
+    background: var(--ag);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+
+
+.grid_card_p{
+    color: var(--black);
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: absolute;
+    top: 19px;
+    left: 20px;
+}
+
+.grid_card_text svg{
+    position: absolute;
+    bottom: 13px;
+    left: 180px;
+}
+.text_p{
+    max-width: 322px;
 }
 
 .main_header_all{
@@ -432,59 +528,73 @@ background-position: center;
     right: 31px;
     bottom: 20px;
 }
-
-/* countries education middle */
-
-.main_container_middle{
-    max-width: 1191px;
-    margin-left: auto;
-    margin-right: auto;
+/* Top Universities */
+.grid_card_universities{
+    max-width: 277px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 9px rgba(69, 69, 69, 0.23);
+    margin-top: 44px;
 }
 
-.main_container_middle .main_p{
-    color: var(--black);
-    text-align: center;
-    font-size: 2.2rem;
-    font-weight: 400;
-    margin-top: 12px;
-}
-.header_icons_container label i{
-    display: none;
-}
-.grid_text_container{
-    max-width: 1191px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(376px,1fr));
-    gap: 21px;
-}
-
-.grid_card_text{
-    margin-top: 33px;
-    max-width: 376px;
-    height: 117px;
-    border-radius: 6px;
-    background: var(--ag);
-    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
-    position: relative;
-}
-
-.grid_card_p{
-    color: var(--black);
-    text-align: center;
+.grid_card_container_universities h4{
+    margin-top: 16px;
+    color: var(--red);
+    margin-left: 19px;
     font-size: 1.8rem;
     font-weight: 700;
-    position: absolute;
-    top: 19px;
-    left: 20px;
+    margin-bottom: 3px;
 }
 
-.grid_card_text svg{
-    position: absolute;
-    bottom: 13px;
-    left: 180px;
+.grid_card_container_universities .country{
+    color: var(--white_grey);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 19px;
 }
-.text_p{
-    max-width: 322px;
+
+.grid_card_text_country span{
+    color: var(--black);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.grid_card_text_country .rank{
+    margin-top: 9px;
+}
+.grid_card_text_country .discipline{
+    margin-top: 5px;
+}
+.grid_card_text_country .review{
+    margin-top: 5px;
+}
+
+.grid_card_text_country p{
+    color: #5B5B71;
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-left: 19px;
+}
+
+.grid_card_text_country button{
+    color: var(--green);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+    background: none;
+    border: none;
+    margin-left: 89px;
+}
+
+.show_all{
+    display: block;
+    margin-left: auto;
+    color: var(--grey);
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 15px;
 }
 
 
