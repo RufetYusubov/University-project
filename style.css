@@ -126,6 +126,24 @@ background-position: center;
     background-size: cover;
     background-position: center;
 }
+.header_middle_container_scholarship{
+    background: url('./images/ms-in-international-business_program-detail-page-hero_1900x1300\ 1.png');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header_middle_container_scholarship h1{
+    color: var(--ag);
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 66px;
+    margin-top: 191px;
+    display: inline-block;
+    margin-left: 88px;
+    max-width: 897px;
+}
 
 .header_middle_container h1{
     margin-top: 192px;
